@@ -52,7 +52,7 @@ Replace `hosts.ini` values with your actual EC2 public IPs and SSH key paths.
 
 2. Update hosts.ini.example with your EC2 IPs/DNS and SSH key path.
 
-3. Run the playbook:  ansible-playbook -i hosts.ini jinja2.yml
+3. Run the playbook:  ansible-playbook -i hosts.ini.example jinja2.yml
 
 
 ## Verification
@@ -91,5 +91,6 @@ This project shows that I can:
 - Automate infrastructure efficiently.
 
 - Apply dynamic configuration across multiple servers.
+
 
 - Work safely with sensitive data using best practices.
