@@ -40,7 +40,7 @@ ansible_j2_remote_server/
 │── .gitignore            # Ignore sensitive files
 
 
-Replace `hosts.ini` values with your actual EC2 public IPs and SSH key paths.
+Replace `hosts.ini.example` values with your actual EC2 public IPs and SSH key paths.
 
 ---
 
@@ -94,3 +94,4 @@ This project shows that I can:
 
 
 - Work safely with sensitive data using best practices.
+
