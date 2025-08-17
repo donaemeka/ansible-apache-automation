@@ -1,0 +1,24 @@
+# Ignore SSH private/public keys
+*.pem
+*.pub
+ hosts.ini
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+
+# Ignore Ansible temporary files
+*.retry
+
+# Ignore VSCode settings
+.vscode/
+*.code-workspace
+
+# Ignore Python cache if used
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
